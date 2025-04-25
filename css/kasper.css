@@ -1,0 +1,139 @@
+/* start global variables */
+
+/* End global Variables */
+
+
+/*Start Global Rules*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+
+    padding-left: 15px; 
+    padding-right: 15px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Small*/
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+   
+}
+
+/*Medium*/
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+
+}
+
+/*Large*/
+@media (min-width: 1200px) { 
+    .container {
+        width: 1170px;
+    }
+}
+/*End Global Rules*/
+
+
+/* start header */
+
+header {
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header .container::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: calc(100% - 30px);
+    bottom: 0;
+    left: 15px;
+    background-color: #a2a2a2;
+    
+}
+
+header .container .logo img {
+    height: 30px;
+}
+
+header .container nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+/* end header */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
