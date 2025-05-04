@@ -978,7 +978,7 @@ header .container nav .form i {
     font-size: 30px;
     margin-bottom: 5px;
 }
-<<<<<<< HEAD
+
 /* end quote */
 
 /* start pricing */
@@ -1032,15 +1032,54 @@ header .container nav .form i {
     font-size: 16px;
     right: -10px;
 }
+
+.pricing .container .plans .plan ul {
+    border-bottom: 1px solid var(--mainColor);
+}
+
+.pricing .container .plans .plan ul li {
+    padding: 15px;
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--mainColor);
+    font-size: 16px;
+
+}
+
+.pricing .container .plans .plan ul li:last-child {
+    border: none;
+}
+
+.pricing .container .plans .plan .plan-footer {
+    display: inline-block;
+    margin: 20px 0; 
+    padding: 10px 15px;
+    border: 1px solid var(--mainColor);
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.pricing  .contact-text {
+
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+
+.pricing  > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    display: block;
+    width: fit-content;
+    margin: 0  auto;
+    background-color: var(--mainColor);
+
+}
+
 /* end pricing */
 
-
-=======
-
-
-/* end quote */
-
->>>>>>> 17165780eb49cdfb65fb5b803c84801a334ce200
 
 
 
