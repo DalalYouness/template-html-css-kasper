@@ -1075,11 +1075,74 @@ header .container nav .form i {
     width: fit-content;
     margin: 0  auto;
     background-color: var(--mainColor);
-
 }
-
 /* end pricing */
 
+/* start subscribe */
+.subscribe {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-image: url(../images/qupte.jpg);
+    background-size: cover;
+}
+
+.subscribe .container {
+    position: relative;
+    display: flex;
+    color: white;
+}
+
+@media (max-width: 991px) {
+    .subscribe .container  {
+        flex-direction: column;
+    }
+}
+.subscribe .container form {
+    display: flex;
+    width: 500px;
+    max-width: 100%;
+    margin-right: 50px;
+    position: relative;
+}
+
+.subscribe .container form input[type = "submit"] {
+    width: 130px;
+    background-color: var(--mainColor);
+    color: white;
+    border: 1px solid white;
+    border-left: none;
+    text-transform: uppercase;
+}
+
+.subscribe .container form input[type = "email"] {
+    width: calc(100% - 130px);
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 20px 20px 20px 60px;
+    caret-color: var(--mainColor);  
+    border-right: none;
+    color: white;
+}
+
+.subscribe .container form input::placeholder {
+    color: white;
+}
+
+.subscribe .container form input[type = "email"]:focus {
+    outline: none;
+}
+.subscribe .container form i {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+}
+
+@media (max-width : 991px) {
+    .subscribe p {
+        margin-top: 30px;
+    }
+}
+/* end subscribe */
 
 
 
